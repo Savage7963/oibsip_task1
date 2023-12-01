@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">UnitConverterApp</string>
+    <string name="select_category">Select Category</string>
+    <string name="select_conversion">Select Conversion</string>
+    <string name="convert">Convert</string>
+    <string-array name="unit_categories">
+        <item>Length</item>
+        <item>Time</item>
+        <item>Weight</item>
+        <!-- Add more categories as needed -->
+    </string-array>
+    <!-- Define string arrays for conversions within each category -->
+    <string-array name="length_conversions">
+        <item>Meters to Feet</item>
+        <item>Feet to Meters</item>
+        <!-- Add more conversions within the Length category -->
+    </string-array>
+    <string-array name="time_conversions">
+        <item>Seconds to Minutes</item>
+        <item>Minutes to Seconds</item>
+        <!-- Add more conversions within the Time category -->
+    </string-array>
+
+    <string-array name="weight_conversions">
+        <item>Kilo to Gram</item>
+        <item>Gram to Kilo</item>
+        <!-- Add more weight conversions as needed -->
+    </string-array>
+    <!-- Define string arrays for other categories similarly -->
+</resources>
